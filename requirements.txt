@@ -1,0 +1,7 @@
+argparse==1.2.1
+bottle==0.10.11
+python-geoip==1.2
+python-geoip-geolite2==2014.0207
+scapy==2.1.0
+gevent==1.0.1
+
