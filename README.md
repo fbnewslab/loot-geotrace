@@ -3,8 +3,10 @@ loot-geotrace
 
 restful traceroute plus geoip 
 
-curl  127.0.0.1:61080/geotrace/www.google.com,HOST2,HOST3,...
--> 
+    curl  127.0.0.1:61080/geotrace/www.google.com,HOST2,HOST3,...
+    -> 
+
+```json
     {
 	"routes": [
 	    {
@@ -34,9 +36,9 @@ curl  127.0.0.1:61080/geotrace/www.google.com,HOST2,HOST3,...
 	    }
        ]
     }
+```
 
-
-== INSTALL ==
+## INSTALL
 
 pip install -r requirements.txt
 pip install http://www.secdev.org/projects/scapy/files/scapy-latest.tar.gz
