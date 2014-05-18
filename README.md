@@ -3,7 +3,7 @@ loot-geotrace
 
 restful traceroute plus geoip 
 
-    curl  127.0.0.1:61080/geotrace/www.google.com,HOST2,HOST3,...
+    curl  127.0.0.1:61080/geotrace/cern.ch,HOST2,HOST3,...
     -> 
 
 ```json
