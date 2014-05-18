@@ -40,9 +40,8 @@ restful traceroute plus geoip
 
 ## INSTALL
 
-pip install -r requirements.txt
-pip install http://www.secdev.org/projects/scapy/files/scapy-latest.tar.gz
+    pip install -r requirements.txt
+    pip install http://www.secdev.org/projects/scapy/files/scapy-latest.tar.gz
 
-emacs config.py 
-
-python geotrace.py
+    emacs config.py 
+    python geotrace.py
